@@ -1,0 +1,7 @@
+{
+    "name": "Handlebars Simple Starter",
+    "description": "A full stack starter",
+    "repository": "https://github.com/estelle15000/HandlebarsStarter",
+    "logo": "https://raw.githubusercontent.com/firefly-iii/firefly-iii/main/public/mstile-150x150.png",
+    "keywords": ["node","handlebars," "express",  "sqlite"]
+}

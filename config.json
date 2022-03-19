@@ -1,0 +1,39 @@
+{
+    "database": {
+        "localhost": "mongodb://localhost:27017/not_used_yet",
+        "sqlite": {
+            "db_name": "Chinook_Sqlite.sqlite"
+        },
+        "mongoDbAtlas": "mongodb+srv://login:password@cluster0-6kmcn.azure.mongodb.net/not_used_yet?retryWrites=true&w=majority",
+        "mysql": {
+            "name": "not_used_yet",
+            "user": "root",
+            "password": "password",
+            "dialect": "mysql",
+            "host": "localhost",
+            "port": "3306"
+        }
+    },
+    "nodemailer": {
+        "service": "gmail",
+        "auth": {
+            "user": "not_used_yet@gmail.com",
+            "pass": "myGmailPassword"
+        }
+    },
+    "dev": false,
+    "node_file_path": "not_used_yet",
+    "cloudinary_token": {
+        "cloud_name": "",
+        "api_key": "",
+        "api_secret": ""
+    },
+    "ftp_config": {
+        "host": "",
+        "user": "",
+        "password": "",
+        "secure": false
+    },
+    "logs_path": "not_used_yet",
+    "theme": "/crystal.css"
+}

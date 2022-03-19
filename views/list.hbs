@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{> header }}
+    <title>Menu</title>
+</head>
+{{> navbar home = 'true' }}
+<body>
+    <div class="content">
+   {{#artists}}
+        <span class="badge bg-secondary">{{Name}}</span>
+    {{/artists}}
+    </div>
+</body>
+{{> footer }}
+</body>
+</html>

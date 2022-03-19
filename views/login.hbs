@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	{{> header }}
+	<title>Menu</title>
+</head>
+{{> navbar login = 'true'}}
+
+<body>
+	<div>
+		<div class="content">
+			<div class="row" style ="margin-top:30vh">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 text-center">
+				
+					<!-- Login Form -->
+					<form method="POST">
+						<input type="text" id="username" name="username" placeholder="Your Username...">
+						<input type="text" id="password" name="password" placeholder="Your Password...">
+						<input type="submit" class="btn btn-primary fadeIn fourth" value="Log In"> </input><br>
+						<small class="text-muted">{{message}}</small>
+					</form>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

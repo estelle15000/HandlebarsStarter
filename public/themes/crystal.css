@@ -1,0 +1,49 @@
+body {
+	background: linear-gradient(to right, #ffffff, #fbfcff); 
+} 
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+	background: linear-gradient(to top, #ffffff, #ffffff); 
+	border: 1px solid rgba(0,0,0,.125);
+  }
+footer {
+	background: linear-gradient(to bottom, #ffffff, #ffffff ); 
+   }
+footer h4{
+	color:black
+}
+.copy{
+	color:black
+}
+.card-header {
+
+	background-color: WHITE!important;
+	
+  }
+.card-effect:hover{
+	background-color: rgb(240, 233, 174);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.active{
+	background-color: rgb(240, 233, 174);
+}
+a:hover {
+	background-color: rgb(233, 227, 176);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+	
+	box-shadow: 2px 2px 3px rgba(156, 155, 155, 0.3);
+ /* border: 1px solid rgba(156, 156, 156, 0.125);*/
+	border-radius: 2%;  
+	color:#901010 !important;
+  }
+  .nav-link {
+	color:#4e4e4e!important;
+  }
+
+  .text-muted{
+	color:#901010 !important;
+  }

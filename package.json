@@ -1,0 +1,36 @@
+{
+  "name": "handlebarsstarter",
+  "version": "1.0.0",
+  "description": "Handlebars starter estelle15000",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estelle15000/HandlebarsStarter.git"
+  },
+  "keywords": [
+    "node",
+    "handlebars",
+    "starter"
+  ],
+  "author": "estelle15000",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/estelle15000/HandlebarsStarter/issues"
+  },
+  "homepage": "https://github.com/estelle15000/HandlebarsStarter#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
+    "save": "^2.4.0",
+    "sqlite3": "^5.0.2"
+  }
+}
