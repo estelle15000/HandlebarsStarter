@@ -1,7 +1,7 @@
 
 
 <p align="center" href="https://handlebarsstarter.herokuapp.com/home">
-  <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/master/logo2.jpg" >
+  <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/logo2.jpg" >
 </p>
 
 <p align="center" href="https://handlebarsstarter.herokuapp.com/home">
@@ -30,7 +30,7 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 
 ## Demonstration Url and screenshots
 <p align="center">
-  <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/master/STARTER.jpg">
+  <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/STARTER.jpg">
 </p>
 
 
@@ -46,10 +46,10 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 Query All the Artist Table rows: 
 <i>var artists = await webservices.readAll("Artist")</i>
 
- <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/master/async-list.jpg">
+ <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/async-list.jpg">
 <br><br>
  <b>Middleware User Session control - Graphical explanation :</b>
-  <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/master/login-explanation.jpg">
+  <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/login-explanation.jpg">
 
 ## Features :
 - Node.js.
