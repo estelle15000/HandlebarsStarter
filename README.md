@@ -35,7 +35,7 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 ## Features :
 - Node.js.
 - Handlebars framework.
-- HandleBars Partials, helpers and variables.
+- HandleBars partials, helpers and variables.
 - Express router.
 - <b>Node Session based User Authentication.</b>
 - <b>Security MiddleWare</b> applied to the express routes .
@@ -60,7 +60,7 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 <br><br>
 
 
-<b>Middleware User Session Control</b> - Express routes - Graphical explanation :
+<b>Middleware User Session Control</b> - Express routes - Graphical explanation (See list.js for example):
   <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/login-explanation.jpg">
   <br><br>
 
