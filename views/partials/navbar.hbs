@@ -15,13 +15,19 @@
                             class="sr-only">(current)</span></a>
                 </li>
             </ul>
-             <ul class="navbar-nav mr-auto">
-                <li class="nav-item {{#if home}}active{{/if}}">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item {{#if list}}active{{/if}}">
                     <a class="nav-link " href="../list"><i class="bi bi-body-text"></i> List <span
                             class="sr-only">(current)</span></a>
                 </li>
             </ul>
-          
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item {{#if contact}}active{{/if}}">
+                    <a class="nav-link " href="../contact"><i class="bi bi-envelope"></i> Contact <span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item {{#if login}}active{{/if}}">
                     {{#auth}}

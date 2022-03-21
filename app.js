@@ -77,6 +77,7 @@ app.use(express.static(__dirname + '/public/themes'))
 // -------------------------------    
 app.use('/home', require('./routes/home'))
 app.use('/list', require('./routes/list'))
+app.use('/contact', require('./routes/contact'))
 app.use('/login', require('./routes/login'))
 app.use('/logout', require('./routes/logout'))
 app.use('/error403', require('./routes/error403'))
