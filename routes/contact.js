@@ -18,7 +18,7 @@ router.post('/', function (req, res) {
     return;
   }
 
-  mailer.sendMail(body.emailAddress, config.nodemailer.auth.user, "New message from app", body.contact_form_message + ' - His Phone : ' + body.contact_form_phone);
+  mailer.sendMail(body.emailAddress, config.nodemailer.auth.user, "New message from app", body.message);
   res.render('contact', { message: "Message sent." })
 
 })
