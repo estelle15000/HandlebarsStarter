@@ -77,14 +77,14 @@ Query All the Artist Table rows:
 <b>English:</b><br>
 Simplified and generic implementation of the HandleBars framework:
 - A Middleware that secures access, thanks to Node.js session variables, can't access list.hbs if you ain't authenticated
-- A generic CRUD web services file, to the SQLite relational database
+- A generic CRUD file for the SQLite relational database ( Experimental)
 - A Bootstrap 5 library and its media queries
 - Asynchronous database queries ( Using Async Await)
 
 <b>Spanish:</b><br>
 Implementación simplificada y genérica del marco HandleBars:
 - Un Middleware que asegura el acceso, gracias a las variables de sesión de Node.js
-- Un archivo de servicios web CRUD genérico, a la base de datos relacional SQLite
+- Un archivo CRUD genérico, a la base de datos relacional SQLite ( Experimental)
 - Una biblioteca de Bootstrap 5 y sus consultas de medios.
 
 
@@ -92,7 +92,7 @@ Implementación simplificada y genérica del marco HandleBars:
 <b>French:</b><br>
 Mise en place simplifiée et générique du framework HandleBars: 
 - Un Middleware qui sécurise l'accès aux web services, grâce aux variables de sessions Node.js, vous ne pouvez pas accéder à list.hbs si vous n'êtes pas authentifié.
-- Un Fichier de web services CRUD génériques, vers la base de données relationelle SQLite.
+- Un Fichier CRUD générique vers la base de données relationelle SQLite ( Experimental).
 - Une librairie Bootstrap 5 et ses medias queries.
 - Une mise en place effective des partials ( Barre de navigation, chargement des librairies etc ...)
 - Requêtes asynchrones sur la database Chinook ( On utilise Async Await)
@@ -100,13 +100,13 @@ Mise en place simplifiée et générique du framework HandleBars:
 <b>German : </b><br>
 Vereinfachte und generische Implementierung des HandleBars-Frameworks:
 - Eine Middleware, die dank Node.js-Sitzungsvariablen den Zugriff sichert
-- Eine generische CRUD-Webdienstdatei für die relationale SQLite-Datenbank
+- Eine generische CRUD relationale SQLite-Datenbank
 - Eine Bootstrap 5-Bibliothek und ihre Medienabfragen
 
 <b>Russian:</b><br>
 Упрощенная и общая реализация фреймворка HandleBars:
 - Промежуточное ПО, которое защищает доступ благодаря переменным сеанса Node.js.
-- Общий файл веб-служб CRUD для реляционной базы данных SQLite.
+- Общий файл веб-служб CRUD для реляционной базы данных SQLite ( Experimental).
 - Библиотека Bootstrap 5 и ее медиа-запросы
 
 ## What's in files ?
