@@ -27,6 +27,18 @@ Ce dépot n'utilisera pas de variables globales stockées sur heroku , de maniè
 <b>German:</b><br>
 Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Handlebars ist sehr praktisch und vereinfacht die Full Stack Programmierung gut...
 
+## Features :
+- Node.js.
+- Handlebars framework.
+- Express router.
+- <b>Session Authentication</b> system, <b>Security MiddleWare</b> system.
+- Chinook demo Sqlite relational database + 1 generic Async CRUD relational web services.
+- Bootstrap 5.
+- Multiple files upload.
+- Multiple CSS theme switching.
+- HandleBars Partials and variables handlings.
+- NodeMailer : Email from the app using a Gmail MailBox .
+
 
 ## Demonstration Url and screenshots
 <p align="center">
@@ -56,17 +68,7 @@ Query All the Artist Table rows:
 <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/emails.jpg">
 
 
-## Features :
-- Node.js.
-- Handlebars framework.
-- Express router.
-- <b>Session Authentication</b> system, <b>Security MiddleWare</b> system.
-- Chinook demo Sqlite relational database + 1 generic Async CRUD relational web services.
-- Bootstrap 5.
-- Multiple files upload.
-- Multiple CSS theme switching.
-- HandleBars Partials and variables handlings.
-- NodeMailer : Email from the app using a Gmail MailBox .
+
 
 # More informations : 
 <img width=80 height = 80 src="https://i.pinimg.com/236x/34/4d/88/344d888c205da2182f8fb030d92585f6.jpg">
