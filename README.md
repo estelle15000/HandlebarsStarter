@@ -36,7 +36,7 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 - Node.js.
 - Handlebars framework.
 - Express router.
-- <b>Session Authentication</b> system, <b>Security MiddleWare</b> system.
+- <b>Session Authentication</b>, <b>Security MiddleWare</b> system.
 - Generic Async CRUD(Create, Read, Update, Delete)  sqlite db queries + Chinook demo Sqlite relational database file.
 - Bootstrap 5.
 - Multiple files upload.
@@ -61,7 +61,7 @@ Query All the Artist Table rows:
 
  <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/async-list.jpg">
 <br><br>
- <b>Middleware User Session control - Graphical explanation :</b>
+ <b>Middleware User Session Control - Express routes - Graphical explanation :</b>
   <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/login-explanation.jpg">
 
   <br><br>
@@ -76,14 +76,14 @@ Query All the Artist Table rows:
 
 <b>English:</b><br>
 Simplified and generic implementation of the HandleBars framework:
-- A Middleware that secures access, thanks to Node.js session variables, can't access list.hbs if you ain't authenticated
+- A Middleware that secures access to express routes, thanks to Node.js session variables, can't access list.hbs if you ain't authenticated
 - A generic CRUD(Create, Read, Update, Delete)  file for the SQLite relational database ( Experimental)
 - A Bootstrap 5 library and its media queries
 - Asynchronous database queries ( Using Async Await)
 
 <b>Spanish:</b><br>
 Implementación simplificada y genérica del marco HandleBars:
-- Un Middleware que asegura el acceso, gracias a las variables de sesión de Node.js
+- Un Middleware que asegura el acceso del express routes, gracias a las variables de sesión de Node.js
 - Un archivo CRUD genérico, a la base de datos relacional SQLite ( Experimental)
 - Una biblioteca de Bootstrap 5 y sus consultas de medios.
 
@@ -91,7 +91,7 @@ Implementación simplificada y genérica del marco HandleBars:
 
 <b>French:</b><br>
 Mise en place simplifiée et générique du framework HandleBars: 
-- Un Middleware qui sécurise l'accès aux web services, grâce aux variables de sessions Node.js, vous ne pouvez pas accéder à list.hbs si vous n'êtes pas authentifié.
+- Un Middleware qui sécurise l'accès aux routes express, grâce aux variables de sessions Node.js, vous ne pouvez pas accéder à list.hbs si vous n'êtes pas authentifié.
 - Un Fichier CRUD(Create, Read, Update, Delete)  générique vers la base de données relationelle SQLite ( Experimental).
 - Une librairie Bootstrap 5 et ses medias queries.
 - Une mise en place effective des partials ( Barre de navigation, chargement des librairies etc ...)
