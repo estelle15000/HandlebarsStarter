@@ -1,5 +1,8 @@
 
 
+<a href="https://heroku.com/deploy">
+  <img  align="right"  src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
 <p align="center" href="https://handlebarsstarter.herokuapp.com/home">
   <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/logo2.jpg" >
 </p>
@@ -7,6 +10,8 @@
 <p align="center" href="https://handlebarsstarter.herokuapp.com/home">
 <b>HEROKU LIVE DEMO </b> ->  :<a href="https://handlebarsstarter.herokuapp.com/home"> https://handlebarsstarter.herokuapp.com/home</a>
 </p>
+
+
 
 
 # Handlebars Node.Js Sqlite 2022 Starter !!BUILDING !!
@@ -46,11 +51,7 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 </p>
 
 
-<b>HEROKU LIVE DEMO </b> ->  :<a> https://handlebarsstarter.herokuapp.com/home</a>
 
-<a href="https://heroku.com/deploy">
-  <img  align="right"  src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
 
 <br><br>
 <b>Async Query : ReadAll the Chinook Database Artists from the list.js route result : </b><br>
