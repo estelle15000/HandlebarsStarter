@@ -37,7 +37,7 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 - Handlebars framework.
 - Express router.
 - <b>Session Authentication</b> system, <b>Security MiddleWare</b> system.
-- Generic Async CRUD sqlite db queries + Chinook demo Sqlite relational database file.
+- Generic Async CRUD(Create, Read, Update, Delete)  sqlite db queries + Chinook demo Sqlite relational database file.
 - Bootstrap 5.
 - Multiple files upload.
 - Multiple CSS theme switching.
@@ -77,7 +77,7 @@ Query All the Artist Table rows:
 <b>English:</b><br>
 Simplified and generic implementation of the HandleBars framework:
 - A Middleware that secures access, thanks to Node.js session variables, can't access list.hbs if you ain't authenticated
-- A generic CRUD file for the SQLite relational database ( Experimental)
+- A generic CRUD(Create, Read, Update, Delete)  file for the SQLite relational database ( Experimental)
 - A Bootstrap 5 library and its media queries
 - Asynchronous database queries ( Using Async Await)
 
@@ -92,7 +92,7 @@ Implementación simplificada y genérica del marco HandleBars:
 <b>French:</b><br>
 Mise en place simplifiée et générique du framework HandleBars: 
 - Un Middleware qui sécurise l'accès aux web services, grâce aux variables de sessions Node.js, vous ne pouvez pas accéder à list.hbs si vous n'êtes pas authentifié.
-- Un Fichier CRUD générique vers la base de données relationelle SQLite ( Experimental).
+- Un Fichier CRUD(Create, Read, Update, Delete)  générique vers la base de données relationelle SQLite ( Experimental).
 - Une librairie Bootstrap 5 et ses medias queries.
 - Une mise en place effective des partials ( Barre de navigation, chargement des librairies etc ...)
 - Requêtes asynchrones sur la database Chinook ( On utilise Async Await)
@@ -135,7 +135,7 @@ Vereinfachte und generische Implementierung des HandleBars-Frameworks:
 - <b>TMP</b> : Il s'agit d'un répertoire obligatoire, utilisé pour les téléchargements de fichiers Heroku. <br>
 - <b>FILES</b> : c'est là que les fichiers téléchargés sont stockés, quand on utilise pas héroku. <br>
 - <b>PUBLIC</b> : Vous y trouverez le fichier style.css, pour les requêtes médias CSS, les thèmes App et les images de l'application web </b>
--   <b>CRUD</b> : Ici, on trouve le service Web CRUD (Create, Read, Update, Delete) expérimental qui permet de transférer des objets JSON dans la base de données SQLITE, pas d'utilisation de l'ORM Sequelize cette fois, n'utilisez pas cela pour de la production, mais un ORM.
+-   <b>CRUD</b> : Ici, on trouve le fichier CRUD (Create, Read, Update, Delete) expérimental qui permet de transférer des objets JSON dans la base de données SQLITE, pas d'utilisation de l'ORM Sequelize cette fois, n'utilisez pas cela pour de la production, mais un ORM.
 -   <b>DB\DATABASE.DB</b> : C'est la base de données SQLITE
 -   <b>MAILER\MAILER.JS</b> : Toutes les fonctions servant à l'emailing.
 -   <b>USERS\USERS.JSON</b> : La liste des utilisateurs, je ne me sers pas de la database dans ce starter, pour simplifier.
