@@ -35,16 +35,16 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 ## Features :
 - Node.js.
 - Handlebars framework.
+- HandleBars Partials and variables handlings.
 - Express router.
-- <b>Node Session based Authentication</b>
+- <b>Node Session based Authentication.</b>
 - <b>Security MiddleWare</b> applied to the express routes .
-- Generic Async CRUD(Create, Read, Update, Delete)  sqlite db queries
+- Generic Async CRUD(Create, Read, Update, Delete)  sqlite db queries.
 - Chinook demo Sqlite relational database file.
-- Bootstrap 5.
+- Bootstrap 5 styles library.
+- NodeMailer : Email from the app using a Gmail MailBox .
 - Multiple files upload.
 - Multiple CSS theme switching.
-- HandleBars Partials and variables handlings.
-- NodeMailer : Email from the app using a Gmail MailBox .
 
 
 ## Demonstration Url and screenshots
