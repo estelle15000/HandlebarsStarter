@@ -38,7 +38,8 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 - Express router.
 - <b>Node Session based Authentication</b>
 - <b>Security MiddleWare</b> applied to the express routes .
-- Generic Async CRUD(Create, Read, Update, Delete)  sqlite db queries + Chinook demo Sqlite relational database file.
+- Generic Async CRUD(Create, Read, Update, Delete)  sqlite db queries
+- Chinook demo Sqlite relational database file.
 - Bootstrap 5.
 - Multiple files upload.
 - Multiple CSS theme switching.
