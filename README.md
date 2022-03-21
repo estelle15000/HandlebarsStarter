@@ -56,15 +56,18 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 <br><br>
 <b>Async Query : ReadAll the Chinook Database Artists from the list.js route result : </b><br>
 
+<b>Middleware User Session Control - Express routes - Graphical explanation :</b>
+  <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/login-explanation.jpg">
+  <br><br>
+
 Query All the Artist Table rows: 
 <i>var artists = await sqliteCrud.readAll("Artist")</i>
 
  <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/async-list.jpg">
 <br><br>
- <b>Middleware User Session Control - Express routes - Graphical explanation :</b>
-  <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/login-explanation.jpg">
+ 
 
-  <br><br>
+
 <b>Send emails : Send emails from the app ( Fill config.json with you Gmail mailbox before) : </b><br>
 <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/emails.jpg">
 
