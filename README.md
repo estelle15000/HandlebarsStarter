@@ -51,6 +51,11 @@ Query All the Artist Table rows:
  <b>Middleware User Session control - Graphical explanation :</b>
   <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/login-explanation.jpg">
 
+  <br><br>
+<b>Send emails : Send emails from the app ( Fill config.json before) : </b>
+<img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/emails.jpg">
+
+
 ## Features :
 - Node.js.
 - Handlebars framework.
