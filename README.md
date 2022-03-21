@@ -54,12 +54,13 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 
 
 <br><br>
-<b>Async Query : ReadAll the Chinook Database Artists from the list.js route result : </b><br>
 
-<b>Middleware User Session Control - Express routes - Graphical explanation :</b>
+
+<b>Middleware User Session Control</b> - Express routes - Graphical explanation :
   <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/login-explanation.jpg">
   <br><br>
 
+<b>Async Database Query</b> : ReadAll the Chinook Database Artists from the list.js route result : <br>
 Query All the Artist Table rows: 
 <i>var artists = await sqliteCrud.readAll("Artist")</i>
 
@@ -68,7 +69,7 @@ Query All the Artist Table rows:
  
 
 
-<b>Send emails : Send emails from the app ( Fill config.json with you Gmail mailbox before) : </b><br>
+<b>Send emails </b>: Send emails from the app ( Fill config.json with you Gmail mailbox before) : <br>
 <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/emails.jpg">
 
 
