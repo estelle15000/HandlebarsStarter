@@ -57,7 +57,7 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 <b>Async Query : ReadAll the Chinook Database Artists from the list.js route result : </b><br>
 
 Query All the Artist Table rows: 
-<i>var artists = await webservices.readAll("Artist")</i>
+<i>var artists = await CRUD.readAll("Artist")</i>
 
  <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/async-list.jpg">
 <br><br>
@@ -121,7 +121,7 @@ Vereinfachte und generische Implementierung des HandleBars-Frameworks:
 -   <b>TMP</b> : This is a mandatory directory , used for HEROKU files uploads.  <br>
 -   <b>FILES</b> : This is where uploaded files are stored, when Heroku is not used.  <br>
 -   <b>PUBLIC</b> : There, you will find the STYLE.CSS file, for CSS medias queries, the App themes and the web application Images </b>
--   <b>WEBSERVICES</b> : There, you have one experimental generic Async CRUD file, allowing you to send JSON to the SQLITE relational DB. I won't use the Sequelize ORM this time, don't use this in production but use a ORM, I've done it real fast.
+-   <b>CRUD</b> : There, you have one experimental generic Async CRUD file, allowing you to send JSON to the SQLITE relational DB. I won't use the Sequelize ORM this time, don't use this in production but use a ORM, I've done it real fast.
 -   <b>DB\DATABASE.DB</b> : This is the SQLITE relational database.
 -   <b>APP.JSON</b> : Used by "deploy to heroku".
 -   <b>MAILER\MAILER.JS</b> : All emailing related functions.
@@ -135,7 +135,7 @@ Vereinfachte und generische Implementierung des HandleBars-Frameworks:
 - <b>TMP</b> : Il s'agit d'un répertoire obligatoire, utilisé pour les téléchargements de fichiers Heroku. <br>
 - <b>FILES</b> : c'est là que les fichiers téléchargés sont stockés, quand on utilise pas héroku. <br>
 - <b>PUBLIC</b> : Vous y trouverez le fichier style.css, pour les requêtes médias CSS, les thèmes App et les images de l'application web </b>
--   <b>WEBSERVICES</b> : Ici, on trouve le service Web CRUD (Create, Read, Update, Delete) expérimental qui permet de transférer des objets JSON dans la base de données SQLITE, pas d'utilisation de l'ORM Sequelize cette fois, n'utilisez pas cela pour de la production, mais un ORM.
+-   <b>CRUD</b> : Ici, on trouve le service Web CRUD (Create, Read, Update, Delete) expérimental qui permet de transférer des objets JSON dans la base de données SQLITE, pas d'utilisation de l'ORM Sequelize cette fois, n'utilisez pas cela pour de la production, mais un ORM.
 -   <b>DB\DATABASE.DB</b> : C'est la base de données SQLITE
 -   <b>MAILER\MAILER.JS</b> : Toutes les fonctions servant à l'emailing.
 -   <b>USERS\USERS.JSON</b> : La liste des utilisateurs, je ne me sers pas de la database dans ce starter, pour simplifier.
@@ -147,7 +147,7 @@ Vereinfachte und generische Implementierung des HandleBars-Frameworks:
 - <b>TMP</b>: este es un directorio obligatorio, utilizado para cargar archivos de Heroku. <br>
 - <b>FILES</b> : Aquí es donde se almacenan los archivos cargados. <br>
 - <b>PUBLIC</b> : Allí encontrará el archivo style.css, para consultas de medios CSS, los temas de la aplicación y las imágenes de la aplicación web </b>
-- <b>WEBSERVICES</b>: Aquí encontramos el servicio web experimental CRUD (Crear, Leer, Actualizar, Eliminar) que permite transferir objetos JSON a la base de datos SQLITE, sin usar ORM Sequelize esta vez. Not to usar in production!
+- <b>CRUD</b>: Aquí encontramos el servicio web experimental CRUD (Crear, Leer, Actualizar, Eliminar) que permite transferir objetos JSON a la base de datos SQLITE, sin usar ORM Sequelize esta vez. Not to usar in production!
 
 ## Was ist in Dateien ?
 - <b>CONFIG.JSON</b> Dies ist die App-Konfiguration, DB-Verbindung, FTP-Verbindung, Auswahl von dev oder prod, etc ...<br>
@@ -157,7 +157,7 @@ Vereinfachte und generische Implementierung des HandleBars-Frameworks:
 - <b>TMP</b> : Dies ist ein obligatorisches Verzeichnis, das für das Hochladen von Heroku-Dateien verwendet wird. <br>
 - <b>FILES</b> : Hier werden hochgeladene Dateien gespeichert. <br>
 - <b>PUBLIC</b> : Dort finden Sie die Datei style.css für CSS-Medienabfragen, die App-Designs und die Bilder der Webanwendung </b>
-- <b>WEBSERVICES</b>: Hier finden wir den experimentellen CRUD-Webdienst (Create, Read, Update, Delete), der es ermöglicht, JSON-Objekte in die SQLITE-Datenbank zu übertragen, diesmal ohne Verwendung des ORM-Sequelizes.Not to usar in production, Utilisar ORM!
+- <b>CRUD</b>: Hier finden wir den experimentellen CRUD-Webdienst (Create, Read, Update, Delete), der es ermöglicht, JSON-Objekte in die SQLITE-Datenbank zu übertragen, diesmal ohne Verwendung des ORM-Sequelizes.Not to usar in production, Utilisar ORM!
 
 ## Project setup
 <img width=80 height = 80 src="https://i.pinimg.com/236x/34/4d/88/344d888c205da2182f8fb030d92585f6.jpg">

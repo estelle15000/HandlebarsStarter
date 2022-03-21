@@ -22,7 +22,7 @@ let db = new sqlite3.Database('db/' + config.database.sqlite.db_name, (err) => {
 * @params table name (STRING) , json (JSON OBJECT)
 * @return 
 * @error  
-* HowToUse : webservices.create("Templates",{'name':'myTemplate','desc':'myDesc','category':'1','created':'12/12/2022'})
+* HowToUse : sqlite.create("Templates",{'name':'myTemplate','desc':'myDesc','category':'1','created':'12/12/2022'})
 */
 function create(table, json) {
 
@@ -78,7 +78,7 @@ async function readAll(table) {
 * @params table name (STRING) , json (JSON OBJECT)
 * @return 
 * @error  
-* Update example : webservices.update("templates",{"id":1,'name':'test4','desc':'test','category':'1','created':'12/12/2022'})
+* Update example : sqlite.update("templates",{"id":1,'name':'test4','desc':'test','category':'1','created':'12/12/2022'})
 */
 function update(table, json) {
     // CONVERTS JSON to SQLITE values
