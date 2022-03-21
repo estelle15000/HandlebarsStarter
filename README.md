@@ -35,7 +35,7 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 ## Features :
 - Node.js.
 - Handlebars framework.
-- HandleBars Partials and variables handlings.
+- HandleBars Partials, helpers and variables.
 - Express router.
 - <b>Node Session based User Authentication.</b>
 - <b>Security MiddleWare</b> applied to the express routes .
