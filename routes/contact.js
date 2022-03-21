@@ -11,22 +11,14 @@ router.post('/', function (req, res) {
   //Grab the request body
   var body = req.body;
   //Validate email
-  if (middleware.validateEmail(body.contact_form_email)) {
+  if (middleware.validateEmail(body.emailAddress)) {
 
   } else {
     res.render('contact', { message: "Email is not valid." });
     return;
   }
-  //Validate phone
-  if (body.contact_form_phone.match(/^[0-9]+$/) != null) {
 
-  } else {
-    res.render('contact', { message: "Phone is not valid." });
-    return;
-  }
-
-
-  mailer.sendMail(body.contact_form_email, config.nodemailer.auth.user, body.contact_form_subject, body.contact_form_message + ' - His Phone : ' + body.contact_form_phone);
+  mailer.sendMail(body.emailAddress, config.nodemailer.auth.user, "New message from app", body.contact_form_message + ' - His Phone : ' + body.contact_form_phone);
   res.render('contact', { message: "Message sent." })
 
 })
