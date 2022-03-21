@@ -57,7 +57,7 @@ Hey ! Da ist mein neuer 2022 einfacher Full Stack Node.js Handlebars Starter.Han
 <b>Async Query : ReadAll the Chinook Database Artists from the list.js route result : </b><br>
 
 Query All the Artist Table rows: 
-<i>var artists = await CRUD.readAll("Artist")</i>
+<i>var artists = await sqliteCrud.readAll("Artist")</i>
 
  <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/async-list.jpg">
 <br><br>
