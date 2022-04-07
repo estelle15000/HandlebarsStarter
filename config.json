@@ -22,7 +22,7 @@
         }
     },
     "dev": false,
-    "node_file_path": "not_used_yet",
+    "node_files_path": "../src/files/",
     "cloudinary_token": {
         "cloud_name": "",
         "api_key": "",
