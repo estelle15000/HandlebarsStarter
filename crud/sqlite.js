@@ -20,12 +20,11 @@ let db = new sqlite3.Database('db/' + config.database.sqlite.db_name, (err) => {
 * CREATE 
 * A SQL ROW FROM A JSON OBJECT
 * @params table name (STRING) , json (JSON OBJECT)
-* @return 
-* @error  
+* @return TRUE
+* @error  FALSE
 * HowToUse : sqlite.create("Templates",{'name':'myTemplate','desc':'myDesc','category':'1','created':'12/12/2022'})
 */
 function create(table, json) {
-
 
     var values = JsonToSqlCreationValues(json);
 
@@ -33,10 +32,13 @@ function create(table, json) {
 
     db.run(query, function (err) {
         if (err) {
-            return console.log(err.message);
+            console.log(err.message);
+            return false
         }
         // get the last insert id
         console.log(`A row has been inserted with rowid ${this.lastID}`);
+        return true
+
     });
     // close the database connection
     // db.close();
@@ -54,17 +56,22 @@ function read(table, id) {
 * READ ALL 
 * ROWS 
 * @params  table name (STRING) 
-* @return 
-* @error  
+* @return resolve 
+* @error reject
+* Example : https://blog.pagesd.info/2019/10/29/use-sqlite-node-async-await/ 
 */
 async function readAll(table) {
 
     let sql = 'SELECT * FROM ' + table;
+
     return new Promise(function (resolve, reject) {
         db.serialize(function () {
             db.all(sql, [], (err, rows) => {
-                if (err) { return reject(err); }
+                if (err) {
+                    return reject(err);
+                }
                 resolve(rows);
+
             });
         });
     });
@@ -94,6 +101,7 @@ function update(table, json) {
 * @error  
 */
 function del(table, id) {
+
 }
 
 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{> header }}
+    <title>Menu</title>
+</head>
+{{> navbar home = 'true' }}
+
+<body>
+    <div class="content">
+
+        <fieldset>
+            <legend> Create new artist in Sqlite Db
+            </legend>
+            <!-- Create Artist Form -->
+            <form method="POST">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Name..."
+                        aria-label="Name" aria-describedby="basic-addon1">
+                </div>
+                <input type="submit" class="btn btn-primary fadeIn fourth" value="Add artist to Sqlite the relational Db"> </input><br>
+					
+            </form>
+        </fieldset>
+    </div>
+</body>
+{{> footer }}
+</body>
+
+</html>

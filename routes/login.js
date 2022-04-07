@@ -9,7 +9,7 @@ router.post('/', function (req, res) {
 
   //Grab the request body
   var body = req.body;
-;
+
   // Authenting from json Array file users/users.json
   var auth = middleware.authenticateUser(users, { "username": body.username, "password": body.password });
   
