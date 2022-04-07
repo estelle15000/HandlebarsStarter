@@ -14,7 +14,7 @@
 
 
 
-# Handlebars Node.Js Sqlite 2022 Starter !!BUILDING !!
+# Handlebars Node.Js Sqlite 2022 Starter 
 <img width=80 height = 80 src="https://i.pinimg.com/236x/34/4d/88/344d888c205da2182f8fb030d92585f6.jpg">
 <b>English:</b><br>
 Hey ! There is my new 2022 simple Full stack Node.js Handlebars starter.
