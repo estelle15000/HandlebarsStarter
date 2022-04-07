@@ -73,7 +73,7 @@ Query All the Artist Table rows:
  
 
 
-<b>Send emails </b>: Send emails from the app ( Fill config.json with you Gmail mailbox before) : <br>
+<b>Send emails </b>: Send emails from the app ( Fill config.json with your Gmail mailbox before, and set it to google 'less secure' mailbox feature) : <br>
 <img  src="https://github.com/estelle15000/HandlebarsStarter/blob/main/emails.jpg">
 
 
