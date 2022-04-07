@@ -91,11 +91,23 @@
                 </div>
             </div>
         </div>
+         <h2 class="pb-2 border-bottom" >Change Theme <small class="text-muted"> - Bored ?</small></h2>
+            <button class="btn btn-primary " onclick="themeSwitch()">Change Theme </button>
     </div>
 </body>
 {{> footer }}
 </body>
 </html>
+<script type="text/javascript">
+
+    function themeSwitch() {
+        $.get("/home/theme", function (data) {
+            window.location.reload();
+        });
+    }
+
+
+</script>
 <!-- {{!-- CUSTOM CARDS CSS --}} !-->>
 <style>
     .b-example-divider {

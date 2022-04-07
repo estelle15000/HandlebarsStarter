@@ -65,6 +65,15 @@ hbs.registerHelper('auth', function() {
 })
 
 // -------------------------------
+// CHANGE APP THEME 
+// ------------------------------- 
+
+global.theme = config.theme ; 
+hbs.registerHelper('theme', function() {
+    return global.theme
+});
+
+// -------------------------------
 // Static images and css directory routes
 // -------------------------------    
 app.use(express.static(__dirname + '/public'))
