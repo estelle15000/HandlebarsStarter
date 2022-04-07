@@ -22,8 +22,14 @@
                 </li>
             </ul>
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item {{#if list}}active{{/if}}">
+                <li class="nav-item {{#if crud}}active{{/if}}">
                     <a class="nav-link " href="../crud"><i class="bi bi-arrow-down-up"></i> Crud <span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+             <ul class="navbar-nav mr-auto">
+                <li class="nav-item {{#if upload}}active{{/if}}">
+                    <a class="nav-link " href="../upload"><i class="bi bi-arrow-down-up"></i> Upload Files <span
                             class="sr-only">(current)</span></a>
                 </li>
             </ul>
@@ -39,7 +45,6 @@
                     {{#auth}}
 
                     {{/auth}}
-
                 </li>
             </ul>
         </div>
