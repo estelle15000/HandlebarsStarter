@@ -7,7 +7,7 @@ const middleware = require("../middleware/middleware.js");
 // If we permit multiples uploads  then we have to use MULTER to add a date to each of the filenames, avoiding any duplicate .
 var storageFiles = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null,config.node_files_path); // nodeFilePath to store our files . Le chemin ou on enregistre nos fichiers.
+        cb(null,config.upload_files_path); // nodeFilePath to store our files . Le chemin ou on enregistre nos fichiers.
     },
     filename: function (req, file, cb) {
         let extension = file.originalname.substring(file.originalname.lastIndexOf("."), file.originalname.length);
